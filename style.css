@@ -1,0 +1,148 @@
+/*logo*/
+body{margin:20px 120px;}
+body
+{
+
+
+}
+.total{
+    background:url('http://i1.piimg.com/567571/2a6682ec4c63e01f.jpg') fixed center center no-repeat;
+    background-size: cover;
+    width: 100%;}
+section{margin:0;}
+ul,ol{list-style:none;padding:0;}
+.logo{
+    text-align: center;
+ 
+   
+   }
+.logo > img{
+width:100px;
+height:100px;
+border-radius:50px;
+
+margin-top:40px;
+box-shadow:0px 0px 150px #FFFF37;}
+.logo > .slogan{
+    margin-top:28px;
+    }
+.logo > .slogan > li{
+    font-size:20px;
+    display:inline-block;
+    min-width:128px;
+    margin-bottom:24px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:24px;
+    line-height:24px; 
+    background:#ADADAD;
+    font-family:"KaiTi";
+    color:white;}
+/*banner*/
+.banner{
+    text-align: center;    
+    }
+.banner .details{
+    padding-top:16px;
+    padding-bottom:34px;
+ 
+}
+.banner  h2{
+    border-radius:14px;
+    display:inline-block;
+    min-width:200px;
+     margin-top:10px;
+    margin-bottom:10px;
+    color:red;
+   }
+.banner .one-line-header{
+    display:none;
+}
+@media(min-width:500px){
+.banner .two-line-header{
+    display:none;}
+.banner .one-line-header{
+    display:block;
+}
+}
+
+.banner  .details > p{
+    max-width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:24px;
+    border-radius:14px;
+    margin-top: 20px;
+    font-family:"KaiTi";
+    color:white;
+    font-size:20px;
+    }
+@media(min-width:500px) {
+ .banner  .details p{  
+    max-width:none;
+    margin-left:52px;
+    margin-right:52px;
+}
+}
+
+
+/*products*/
+.products{margin:0 20px;}
+.products>ol{
+    margin-top:10px;
+        }
+
+@media(min-width:600px){
+.products >ol{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;}
+.products > ol> li{
+     width:calc(50% - 16px);
+     border-sizing:border-box;
+ }
+ }
+ @media(min-width:1000px){
+.products >ol{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;}
+.products > ol> li{
+     width:calc(33.333333% - 21.333333px);
+     border-sizing:border-box;
+ }
+ }
+ @media(min-width:1200px){
+   .product > ol{
+    max-width:928px;
+    margin-left:auto;
+    margin-right:auto;
+   }  
+ }
+.products .product{
+  margin-top:32px;
+ }
+.products .product > .imga{
+    border-radius:4px;
+    height:180px;
+    border:1px solid red;  
+    background:#d8d8d8;
+    
+  }
+  .products .product > .imga >img{
+      width:100%;
+      height:100%;
+  }
+.products .product>h3{
+    max-width:204px;
+    border-radius:4px;
+    line-height:24px;
+    margin-top:20px;
+    margin-bottom:14px;
+}
+.products .product>p{
+    border-radius:4px;
+    line-height:16px;
+    font-size: 14px;
+    margin-top:14px;
+}
