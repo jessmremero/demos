@@ -14,7 +14,7 @@ ul,ol{list-style:none;padding:0;}
 .logo{
     text-align: center;
       }
-.logo > img{
+.logo > img {
 max-width:60px;
 max-height:60px;
 border-radius:30px;
